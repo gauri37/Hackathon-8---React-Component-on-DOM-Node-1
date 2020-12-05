@@ -1,9 +1,9 @@
 import React from 'react';
-function App(){
+class App extends React.Component{
+    render(){
         return(
-            <>
-                <h1>Now I can render any React component on any DOM node I want using ReactDOM.render</h1>
-            </>
+            <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
         );
     }
+}
 export default App;
