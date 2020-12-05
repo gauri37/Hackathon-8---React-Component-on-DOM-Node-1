@@ -1,11 +1,9 @@
 import React from 'react';
-export default class App extends React.Component{
-    render(){
+function App(){
         return(
             <>
-                <h1 id="root">Now I can render any React component on any DOM node I want using ReactDOM.render</h1>
+                <h1>Now I can render any React component on any DOM node I want using ReactDOM.render</h1>
             </>
         );
     }
-    
-}
+export default App;
